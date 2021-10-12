@@ -7,4 +7,6 @@
 
 body{
     background-color: rgb(238, 238, 252);
+    min-height: 75rem;
+  padding-top: 4.5rem;
 }
