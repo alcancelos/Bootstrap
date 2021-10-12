@@ -7,7 +7,7 @@ body{
 }
 
 .jumbo{
-    background-image:url("/images/fondo.jpg");
+    background-image:url("./fondo.jpg");
     -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
