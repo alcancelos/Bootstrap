@@ -2,14 +2,25 @@
 
 body{
     background-color: rgb(238, 238, 252);
-    /* min-height: 75rem;
-  padding-top: 4.5rem; */
+    min-height: 75rem;
+    padding-top: 4.5rem;
 }
 
 .jumbo{
     background-image:url("./fondo.jpg");
     -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.barraNav{
+    background-color: blue;
+    background: #0d2145;
+    background: linear-gradient(90deg,#0d2145 0%, #1d558a 80%);
+    background: -webkit-linear-gradient(90deg,#0d2145 0%, #1d558a 80%);
+    background: -moz-linear-gradient(90deg,#0d2145 0%, #1d558a 80%);
+    box-shadow: 6px 25px 46px -13px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 25px 46px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 25px 46px -13px rgba(0,0,0,0.75);
 }
